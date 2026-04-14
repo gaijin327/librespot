@@ -41,7 +41,7 @@ pbkdf2 = { version = "0.12", default-features = false, features = ["hmac"] }
 priority-queue = "1.2"
 protobuf = "3"
 quick-xml = { version = "0.31", features = ["serialize"] }
-rand = "0.8"
+rand = "0.9"
 rsa = "0.9.2"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
@@ -59,7 +59,7 @@ uuid = { version = "1", default-features = false, features = ["fast-rng", "v4"] 
 data-encoding = "2.5"
 
 [build-dependencies]
-rand = "0.8"
+rand = "0.9"
 vergen = { version = "8", default-features = false, features = ["build", "git", "gitcl"] }
 
 [dev-dependencies]
