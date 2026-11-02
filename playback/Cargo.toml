@@ -40,7 +40,7 @@ sdl2            = { version = "0.36", optional = true }
 gstreamer       = { version = "0.22.1", optional = true }
 gstreamer-app   = { version = "0.22.0", optional = true }
 gstreamer-audio = { version = "0.22.0", optional = true }
-glib            = { version = "0.19.2", optional = true }
+glib            = { version = "0.20.0", optional = true }
 
 # Rodio dependencies
 rodio           = { version = "0.17.1", optional = true, default-features = false }
@@ -53,7 +53,7 @@ symphonia = { version = "0.5", default-features = false, features = ["mp3", "ogg
 ogg = { version = "0.9", optional = true }
 
 # Dithering
-rand = { version = "0.8", features = ["small_rng"] }
+rand = { version = "0.10", features = ["small_rng"] }
 rand_distr = "0.4"
 
 [features]
